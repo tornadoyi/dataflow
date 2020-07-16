@@ -5,8 +5,8 @@ from functools import partial
 
 
 def __wrapper(f):
-    def call(f, host, port, *args, **kwargs):
-        r = redis.Redis(host=host, port=port, db=0)
+    def call(f, host, port, password, *args, **kwargs):
+        r = redis.Redis(host=host, port=port, password=password, db=0)
         return f(r, *args, **kwargs)
 
     return partial(call, f)
