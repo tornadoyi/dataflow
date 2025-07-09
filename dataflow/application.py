@@ -57,7 +57,7 @@ def run():
     module_dict = dict([(n, getattr(modules, n)) for n in dir(modules)
                         if hasattr(getattr(modules, n), module_add_parser_fname) and \
                             hasattr(getattr(modules, n), module_execute_fname)])
-
+    
     # main parser
     parser = argparse.ArgumentParser(prog=name, description=description)
     sparser = parser.add_subparsers(title=root_parser_title, dest="module")

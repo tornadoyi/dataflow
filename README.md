@@ -8,6 +8,10 @@ git clone https://git.midea.com/midea_ai_nlp/dataflow.git
 cd dataflow && pip install .
 ```
 
+## Pipeline example
+see https://github.com/tornadoyi/dataflow/blob/master/example/pipeline.py
+
+
 ## HTTP
 Import http module
 ```python
