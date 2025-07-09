@@ -1,0 +1,11 @@
+# ignore
+*.pyc
+*__pycache__
+*.ipynb_checkpoints
+*.log
+*.db
+*.index
+.idea/*
+tmp/*
+*.egg-info/
+.DS_Store
