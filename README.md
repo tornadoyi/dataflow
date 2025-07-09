@@ -9,7 +9,7 @@ cd dataflow && pip install .
 ```
 
 ## Pipeline example
-see https://github.com/tornadoyi/dataflow/blob/master/example/pipeline.py
+see https://github.com/tornadoyi/dataflow/blob/master/examples/pipeline.py
 
 
 ## HTTP
